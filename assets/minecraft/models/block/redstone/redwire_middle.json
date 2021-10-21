@@ -1,0 +1,24 @@
+{
+	"__comment":"Made by Vexxel || Official download page: https://github.com/Vexxel/3D-Redstone || © Vexxel. All rights reserved. ",
+	"__comment": "The dot in the middle that is always shown",
+    "ambientocclusion": false,
+    "textures": {
+        "redstone_wire": "minecraft:block/custom/redstone_wire",
+		"particle": "minecraft:block/custom/redstone_wire"
+    },
+    "elements": [
+        {
+            "name": "dot",
+            "from": [ 7, 0, 7 ], 
+            "to": [ 9, 2, 9 ], 
+            "faces": {
+                "north": { "texture": "#redstone_wire", "uv": [ 7, 5, 9, 7 ], "tintindex": 0 },
+                "east": { "texture": "#redstone_wire", "uv": [ 9, 7, 11, 9 ], "rotation": 90, "tintindex": 0 },
+                "south": { "texture": "#redstone_wire", "uv": [ 7, 9, 9, 11 ], "tintindex": 0 },
+                "west": { "texture": "#redstone_wire", "uv": [ 5, 7, 7, 9 ], "rotation": 90, "tintindex": 0 },
+                "up": { "texture": "#redstone_wire", "uv": [ 7, 7, 9, 9 ], "tintindex": 0 },
+                "down": { "texture": "#redstone_wire", "uv": [ 7, 7, 9, 9 ], "tintindex": 0 }
+            }
+        }
+    ]
+}

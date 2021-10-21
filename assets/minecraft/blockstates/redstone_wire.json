@@ -1,0 +1,65 @@
+{
+	"__comment":"Made by Vexxel || Official download page: https://github.com/Vexxel/3D-Redstone || © Vexxel. All rights reserved. ",
+    "multipart": [
+		{   
+			"when": { "north": "none", "south": "none", "east": "none", "west": "none" },
+				"apply": { "model": "block/redstone/redwire_cross" }
+        },
+		{   "when": { "OR": [
+                { "north": "side|up" },
+                { "east": "side|up" },
+                { "south": "side|up" },
+                { "west": "side|up" }
+            ]},
+				"apply": { "model": "block/redstone/redwire_middle" }
+        },
+        {   
+			"when": { "north": "side|up" },
+				"apply": { "model": "block/redstone/redwire_north" }
+        },
+		{   
+			"when": { "north": "side|up", "south": "none", "east": "none", "west": "none" },
+				"apply": { "model": "block/redstone/redwire_south" }
+        },
+        {   
+			"when": { "south": "side|up" },
+				"apply": { "model": "block/redstone/redwire_south" }
+        },
+		{   
+			"when": { "south": "side|up", "north": "none", "east": "none", "west": "none" },
+				"apply": { "model": "block/redstone/redwire_north" }
+        },
+        {   
+			"when": { "east": "side|up" },
+				"apply": { "model": "block/redstone/redwire_east" }
+        },
+		{   
+			"when": { "east": "side|up", "north": "none", "south": "none", "west": "none" },
+				"apply": { "model": "block/redstone/redwire_west" }
+        },
+        {   
+			"when": { "west": "side|up" },
+				"apply": { "model": "block/redstone/redwire_west" }
+        },
+		{   
+			"when": { "west": "side|up", "north": "none", "south": "none", "east": "none" },
+				"apply": { "model": "block/redstone/redwire_east" }
+        },
+        {   
+			"when": { "north": "up" },
+				"apply": { "model": "block/redstone/redwire_wall_north" }
+        },
+        {   
+			"when": { "south": "up" },
+				"apply": { "model": "block/redstone/redwire_wall_south" }
+        },
+        {   
+			"when": { "east": "up" },
+				"apply": { "model": "block/redstone/redwire_wall_east" }
+        },
+        {   
+			"when": { "west": "up" },
+				"apply": { "model": "block/redstone/redwire_wall_west" }
+        }
+    ]
+}

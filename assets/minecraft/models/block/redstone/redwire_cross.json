@@ -1,0 +1,37 @@
+{
+	"__comment": "The dot in the middle that is always shown",
+	"__comment":"Made by Vexxel || Official download page: https://github.com/Vexxel/3D-Redstone || © Vexxel. All rights reserved. ",
+    "ambientocclusion": false,
+    "textures": {
+        "redstone_wire": "minecraft:block/custom/redstone_wire",
+		"particle": "minecraft:block/custom/redstone_wire"
+    },
+    "elements": [
+        {
+            "name": "crossEW",
+            "from": [ 4, 0, 7 ], 
+            "to": [ 12, 2, 9 ], 
+            "faces": {
+                "north": { "texture": "#redstone_wire", "uv": [ 4, 6, 12, 8 ], "rotation": 180, "tintindex": 0 },
+                "east": { "texture": "#redstone_wire", "uv": [ 12, 7, 14, 9 ], "rotation": 90, "tintindex": 0 },
+                "south": { "texture": "#redstone_wire", "uv": [ 4, 8, 12, 10 ], "tintindex": 0 },
+                "west": { "texture": "#redstone_wire", "uv": [ 2, 7, 4, 9 ], "rotation": 270, "tintindex": 0 },
+                "up": { "texture": "#redstone_wire", "uv": [ 4, 7, 12, 9 ], "tintindex": 0 },
+                "down": { "texture": "#redstone_wire", "uv": [ 4, 7, 12, 9 ], "tintindex": 0 }
+            }
+        },
+        {
+            "name": "crossNS",
+            "from": [ 7, 0.01, 4 ], 
+            "to": [ 9, 2.01, 12 ], 
+            "faces": {
+                "north": { "texture": "#redstone_wire", "uv": [ 7, 2, 9, 4 ], "rotation": 180, "tintindex": 0 },
+                "east": { "texture": "#redstone_wire", "uv": [ 8, 4, 10, 12 ], "rotation": 90, "tintindex": 0 },
+                "south": { "texture": "#redstone_wire", "uv": [ 7, 12, 9, 14 ], "tintindex": 0 },
+                "west": { "texture": "#redstone_wire", "uv": [ 6, 4, 8, 12 ], "rotation": 270, "tintindex": 0 },
+                "up": { "texture": "#redstone_wire", "uv": [ 7, 4, 9, 12 ], "tintindex": 0 },
+                "down": { "texture": "#redstone_wire", "uv": [ 7, 4, 9, 12 ], "tintindex": 0 }
+            }
+        }
+    ]
+}
